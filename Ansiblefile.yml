@@ -1,5 +1,4 @@
-- src:  https://github.com/kostyrevaa/PostgreSQL.git
-  name: postgresql
+- src:  patrik.uytterhoeven.PostgreSQL-For-RHEL6x
   path: roles
 
 - src:  https://github.com/kostyrevaa/ansible-koji-db.git
@@ -28,4 +27,8 @@
 
 - src: goozbach.EPEL
   name: epel
+  path: roles
+
+- src: geerlingguy.nfs
+  name: nfs
   path: roles
